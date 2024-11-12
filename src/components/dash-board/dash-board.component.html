@@ -1,0 +1,43 @@
+<header class="fixed-header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-secondary px-4">
+    <div class="container-fluid">
+      <!-- Left side: Logo and Project Name -->
+      <div class="d-flex align-items-center">
+        <!-- Option 1: Using text as logo -->
+         <div class="logo-text">NY</div> 
+        
+       
+        
+        <span class="project-name ms-2">NearYou</span>
+      </div>
+
+      <!-- Right side: Profile Section -->
+      <div class="profile-section dropdown">
+        <!-- Using a default avatar from UI Avatars API -->
+        <img [src]="'https://ui-avatars.com/api/?name=User&background=random'" 
+             alt="Profile Picture" 
+             class="profile-picture" 
+             data-bs-toggle="dropdown">
+        <div class="dropdown-menu dropdown-menu-end profile-dropdown">
+          <div class="user-info p-3">
+            <div class="d-flex align-items-center mb-2">
+              <img [src]="'https://ui-avatars.com/api/?name=User&background=random'" 
+                   alt="Profile Picture" 
+                   class="profile-picture-small">
+              <div class="ms-2">
+                <h6 class="mb-0">John Doe</h6>
+                <small class="text-muted">john.doeemail.com</small>
+              </div>
+            </div>
+            <hr>
+            <a class="dropdown-item" href="#">My Profile</a>
+            <a class="dropdown-item" href="#">Settings</a>
+            <a class="dropdown-item" href="#">Help</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-danger" href="#">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

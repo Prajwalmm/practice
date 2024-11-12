@@ -1,0 +1,74 @@
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Option 1: Text Logo Styling */
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #007bff;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Option 2: Icon Logo Styling */
+.logo-icon {
+  font-size: 24px;
+  color: #007bff;
+  margin-right: 10px;
+}
+
+/* Option 3: Image Logo Styling */
+.logo-img {
+  height: 40px;
+  width: auto;
+}
+
+.project-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.profile-picture-small {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-dropdown {
+  min-width: 250px;
+  padding: 0;
+}
+
+.user-info {
+  background-color: #f8f9fa;
+}
+
+.dropdown-item {
+  padding: 8px 20px;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
